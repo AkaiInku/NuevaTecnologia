@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="nav_sam">
+            <img src="img/caja.png" alt="sam_logo">
+        </a>
+        <h1>CARTSAM</h1>
+    </nav>
+<section>
+    <div id="buttonRegistro">
+        <button type="button" id="registroBtn">Registro</button>
+    </div>
+    <div id="registerForm" style="display: none;">
+        
+    </div>
+    <div id="login">
+        <h2>Iciar sesion </h2>
+        <form action="Login_secion">
+            <label for="vendedor "></label>
+        </form>
+    </div>
+    <form action="Ingresar_producto">
+         <label for="producto_nombre">Nombre del producto</label>
+         <input type="text" id="producto_nombre">
+         <br><br>
+         <label for="productovalue">Valor del producto</label>
+         <input type="number" id="productValor" step="0.01">
+         <br><br>
+         <button type="button" id="addPruducto">Agregar Producto</button>
+    </form>
+</section>
+    <script src="carrito.js"></script>
+</body>
+</html>

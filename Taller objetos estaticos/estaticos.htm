@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="punto1.js"></script>
+</head>
+<body>
+    <main>
+        <div id="punto1">
+        <h4>Punto 1</h4>
+        <h1>Informacion del veiculo </h1>
+        <form action="VeiculoInformacion">
+            <label for="Placa">Ingresa la  placa del veiculo</label>
+            <input type="text" id="placa" required>
+            <label for="Marca">La marca del veiculo es:</label>
+            <input type="text" id="marca" required>
+            <label for="Color">de color:</label>
+            <input type="text" id="color" required>
+            <label for="valor">Tiene un costo de?</label>
+            <input type="text" id="valor"> <br> <br>
+
+            <button type="button" onclick="mostrarInformacion()">Mostrar Información</button><p id="resultado"></p>
+        </form>
+      </div> 
+      <div>
+        <h4>Punto 2</h4>
+        <h1>Digite el codigo del arreglo</h1>
+        <form action="Arreglos">
+            <label for="Arreglo1">Introduce el codigo del primer arreglo </label>
+            <input type="text" id="arreglo1"> 
+            <button type="button" id="Barreglo2" onclick="gurdarArreglo()">Gurdar</button><br><br>
+            <label for="Arreglo2">Introdusca el codigo del segundo arreglo</label>
+            <input type="text" id="arreglo2"> 
+            <button type="button" id="Barreglo2" onclick="gurdarArreglo2()">Gurdar</button><br><br>
+
+            <button type="button" onclick="mostrarArreglos()">Mostrar valores</button><br>
+            <p id="Marreglo1"></p><br>
+            <p id="Marreglo2"></p>
+        </form>
+
+      </div>
+    </main>
+    <script src="punto1.js"></script>
+    <script src="punto2.js"></script>
+</body>
+</html>
