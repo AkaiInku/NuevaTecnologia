@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <nav>
+
+     </nav>
+     <main>
+        <aside>
+             <h1>Registro de mascota</h1>
+            <form action="mascotaform">
+            <label for="nombre">Nombre de la mascota?</label>
+            <input type="text" id="nombre" required>
+
+            <label for="raza">cual es la raza ?</label>
+            <input type="text" id="raza" required>
+
+            <label for="peso">peso de la mascota? </label>
+            <input type="text"  id="peso"  required>
+            
+            <label for="color"> color de la mascota?</label>
+            <input type="text"  id="color" required>
+
+            <label for="consulta">Informacion de la  consulta?</label>
+            <input type="text" id="consultas">
+
+            <button type="button" onclick="gurdarMascota()">Gurdar mascota</button>
+           </form>
+        </aside>
+        <div>
+            <h1>Buscar mascota por ID O  por Nombre </h1>
+            <form action="buscarforms">
+                <label for="idNombreBusqueda">ID o Nombre </label>
+                <input type="text" id="idNombreBusqueda">
+                <button type="button" onclick="buscarMascota"> Buscar mascota</button>
+            </form>
+            <div id="resultado">
+                
+            </div>
+
+        </div>
+     </main>
+     <head>
+
+     </head>
+     <script src="taller3.html"></script>
+</body>
+</html>
